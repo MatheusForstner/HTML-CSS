@@ -1,0 +1,106 @@
+header{
+    background: #3fcaf5;
+}
+
+.caixa{
+    position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.casa {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+.casa li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+.casa a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+.casa a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+
+footer{
+    text-align: center;
+    background: url(blue.jpg);
+    padding: 30px 0;
+}
+
+.coyright{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 40px 0 0;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form label, form p{
+    display: block;
+    margin: 0 0 20px;
+    width: 50%;
+    padding: 10px 25px;
+}
+
+.enviar{
+    width: 40%;
+    padding: 10px 0;
+    background: #3fcaf5;
+    color: white;
+    font-size: 20px;
+    border: none;
+    transition: 1s all;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.enviar:hover{
+    background: #ff6701;
+    transform: scale(1.2);
+}
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: #000000;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}

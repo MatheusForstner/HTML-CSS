@@ -1,0 +1,152 @@
+@media screen and (max-width: 480px) { 
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+    h1 {
+        text-align: center;
+    }
+    nav {
+        position:static;
+    }
+    .lista-beneficios, imagem-beneficios {
+        width: 100%
+    }
+}
+
+
+header {
+	background: #3fcaf5;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.casa {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+.casa li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+.casa a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+.casa a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+
+
+footer {
+	text-align: center;
+	background: url("blue.jpg");
+}
+
+.copyright {
+	color: #000000;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+
+
+/* css da página inicial */
+.banner {
+	width:100%;
+}
+
+p::first-line{
+    font-style: italic;
+}
+
+.itens::before{
+    content: "★";
+}
+
+.principal{
+    background: chocolate;
+    padding: 2em 0;
+    margin: 0 auto;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.titulo-principal::first-letter{
+    font-weight: bold;
+}
+
+.principal p {
+	margin: 0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.utensilios {
+	width: 120px;
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.beneficios{
+    background: chocolate;
+    padding: 2em 0;
+    margin: 0 auto;
+}
+.conteudo-beneficios{
+    width: 640px;
+    margin: 0 400px 0;
+    color: white;
+}
+
+.imagembeneficios {
+	width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px #000000;
+    display: block;
+    margin: 0 300px 0;
+}
+.imagembeneficios:hover{
+    opacity: 0.3;
+}
+
+
+.mapa {
+	padding:3em 0;
+    margin: 0 auto;
+    background: linear-gradient(45deg, chocolate, #3fcaf5, chocolate, #3fcaf5);
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.video {
+	width: 600px;
+	margin: 5em auto;
+}

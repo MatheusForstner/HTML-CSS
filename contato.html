@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Pets shop</title>
+    <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    
+    <header>
+        <div class="caixa">
+            <h1><img src="PETS (3).png" width="150px" height="150px"></h1>
+
+            <nav class="casa">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="produto.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+        <form>
+            <label for="nomecompleta">Nome de completa:</label>
+            <input type="text" id="nomecompleta" class="input-padrao" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" class="input-padrao" placeholder="seuemail@dominio.com" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" class="input-padrao" placeholder="(xx) xxxx-xxxx" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea cols="50" rows="10" id="mensagem" class="input-padrao"></textarea>
+
+            <div>
+                <p>Como prefere o nosso contato</p>
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label>
+                
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+        
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
+                
+            </div>
+            <div>
+                <p>Qual horário prefere ser atendido?</p>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </div>
+
+            <label><input type="checkbox" checked>Gostaria de receber nossas novidades por e-mail?</label>
+
+            <input type="submit" value="Enviar formulario" class="enviar">
+        </form>
+        <br>
+        <table>
+            <thead>
+            <tr>
+                <th>Dia</th>
+                <th>Horário</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td>Segunda-feira</td>
+                <td>9h ~ 16h</td>
+            </tr>
+
+            <tr>
+                <td>Terça-feira</td>
+                <td>9h ~ 16h</td>
+            </tr>
+
+            <tr>
+                <td>Quarta-feira</td>
+                <td>9h ~ 16h</td>
+            </tr>
+
+            <tr>
+                <td>Quinta-feira</td>
+                <td>9h ~ 16h</td>
+            </tr>
+
+            <tr>
+                <td>Sexta-feira</td>
+                <td>9h ~ 16h</td>
+            </tr>
+
+            
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <img src="PETS (3).png" width="150px" height="150px">
+        
+        <p class="coyright">&copy; Copyright Pets Alura 2022</p>
+    </footer>
+</body>
+</html>

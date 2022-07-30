@@ -1,0 +1,39 @@
+.titulopets{
+
+    text-align: center;
+
+}
+
+
+.petsimagem{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fundo{
+    background: #6e6e61;
+}
+
+.beneficios{
+
+    padding: 20px;
+
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.raca{
+
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
