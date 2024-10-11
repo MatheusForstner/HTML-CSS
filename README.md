@@ -1,7 +1,22 @@
 # Criação site na Pets Shop 
 
+<h1> Página de home </h1>
+_________________________________________________________________________________________________________________________________________
+
 <div align="center">
 <a href="https://ibb.co/KFNHJT1"><img src="https://i.ibb.co/GczH2gc/Captura-de-tela-2024-10-11-075155.png" alt="image" border="0"></a>
+</div>
+
+<div align="center">
+<a href="https://ibb.co/KFNHJT1"><img src="https://i.ibb.co/T28Kh3D/1-Captura-de-tela-2024-10-11-084733.png" alt="image" border="0"></a>
+</div>
+
+<div align="center">
+<a href="https://ibb.co/KFNHJT1"><img src="https://i.ibb.co/25351q0/Captura-de-tela-2024-10-11-084924.png" alt="image" border="0"></a>
+</div>
+
+<div align="center">
+<a href="https://ibb.co/KFNHJT1"><img src="https://i.ibb.co/48GQVXp/Captura-de-tela-2024-10-11-085246.png" alt="image" border="0"></a>
 </div>
 
 <p align="center">
