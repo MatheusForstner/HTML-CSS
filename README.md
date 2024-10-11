@@ -1,21 +1,5 @@
 # Criação site na Pets Shop 
 
-import { Avatar } from "@opeepsfun/avatar-illustration-system";
-
-const avatar = Avatar({
-    circle: { backgroundColor: "brown" },
-    size: 600,
-    glasses: "Square",
-    ear: "Attached",
-    eye: "Round",
-    shirt: "Crew"
-});
-
-const parser = new DOMParser();
-const svgDOM = parser.parseFromString(avatar, "image/svg+xml");
-
-document.getElementById("illustration").appendChild(svgDOM.documentElement);
-
 Fiz criação básico site no assunto PetsShop, esse começou aprender programação HTML e CSS. Usa clicar as paginas home, produtos e contatos. 
 
 <h1> Página de home </h1>
