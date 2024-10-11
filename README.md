@@ -1,5 +1,7 @@
 # Criação site na Pets Shop 
 
+Fiz criação básico site no assunto PetsShop, esse começou aprender programação HTML e CSS. Usa clicar as paginas home, produtos e contatos. 
+
 <h1> Página de home </h1>
 
 <div align="center">
